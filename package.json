@@ -1,0 +1,20 @@
+{
+  "name": "insomnia-plugin-sh-cmd",
+  "version": "0.0.1",
+  "author": "Mageshwaran Rajendran <mageshwaranr@gmail.com>",
+  "description": "Light weight wrapper to execute a shell command and use it's output",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mageshwaranr/insomnia-plugin-sh-cmd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mageshwaranr/insomnia-plugin-sh-cmd/issues"
+  },
+  "main": "index.js",
+  "homepage": "https://github.com/mageshwaranr/insomnia-plugin-sh-cmd#readme",
+  "insomnia": {
+    "name": "sh-cmd",
+    "description": "Executes given commands using OS package"
+  }
+}
