@@ -1,7 +1,7 @@
 # Insomnia Plugin - Shell command executor
 
 This is a plugin for [Insomnia](https://insomnia.rest) that enables you to execute some shell commands and use it output.
-Commands are exeucted using `child_process`.`exec`. ie., equivalent to `\bin\sh` `<cmd-specified>`
+Commands are exeucted using `child_process`.`exec`. ie., equivalent to `/bin/sh` `<cmd-specified>`
 
 You can use this for example to get generate a signed token using existing utility script available.
 

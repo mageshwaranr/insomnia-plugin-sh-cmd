@@ -31,7 +31,7 @@ module.exports.templateTags = [
       };
 
       if (type == 'json') {
-        return JSON.parse(resp.stdout.trim())
+        return JSON.parse(resp.stdout.trim()) // add test case
       }
       return resp.stdout.trim();
     },
