@@ -19,6 +19,7 @@ module.exports.templateTags = [
         displayName: 'Command/shell to be executed',
         help: 'Executes the given command using require("child_process").exec command',
         type: 'string',
+        encoding: 'base64',
       }
     ],
     async run(context, type = 'string', cmd) {
